@@ -21,7 +21,7 @@ public class MyCoursePage extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MyCoursePage.this, Account.class);
+                Intent i = new Intent(MyCoursePage.this, EnrolledCourses.class);
                 startActivity(i);
                 finish();
 
